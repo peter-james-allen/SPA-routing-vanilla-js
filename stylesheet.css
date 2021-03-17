@@ -1,0 +1,38 @@
+body {
+  font-family:arial;
+}
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: darkblue;
+}
+
+.main {
+  margin-left: 160px;
+  padding: 5px;
+  text-align: center;
+}
+
+.main li {
+  text-align: left;
+}
